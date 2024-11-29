@@ -1,0 +1,122 @@
+.gradient-background {
+    background: linear-gradient(300deg, #1c31a7, #9df3fb, #0372a2);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.s1 {
+    height: 50vh;
+}
+
+#intro_box {
+    font-family: sans-serif;
+    color: #313131;
+}
+
+#intro_box p {
+    font-size: 25px;
+}
+
+.s2  h2{
+    color: #0372a2
+}
+
+.s2 p{
+    font-family: sans-serif;
+}
+
+.s2 img {
+    border-radius: 100%;
+}
+
+.skills_box {
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    margin: 20px;
+
+}
+
+#p1 {
+    grid-area: 1/2/2/3;
+}
+
+#p1 img {
+    height: 160px;
+
+}
+
+.s3-d1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+
+.s3-d1 h2 {
+    font-family: sans-serif;
+    color: #0372a2;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    
+}
+
+#t1 {
+    grid-area: 1/3/2/4;
+}
+
+#t1 h4 {
+    color: #014765;
+    font-family: sans-serif;
+}
+
+#t1 p {
+    font-family: sans-serif;
+}
+
+#p2 {
+    grid-area: 2/2/3/3;
+}
+
+#p2 img {
+    height: 160px;
+    padding-left: 50px;
+}
+
+#t2 {
+    grid-area: 2/3/3/4;
+}
+
+#t2 h4 {
+    color: #014765;
+    font-family: sans-serif;
+}
+
+#t1 p {
+    font-family: sans-serif;
+}
+
+.work_text {
+    color: #0372a2;
+}
+
+.c4 img {
+    height: 100px;
+    padding-top: 10px;
+    
+}
